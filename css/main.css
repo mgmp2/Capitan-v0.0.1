@@ -1,10 +1,32 @@
-#logOut{
-  font-size: 60px;
-  font-family: monospace;
-  text-align: center;
-  padding: 200px 50px 0px 150px;
+  /* Para logout.html */
+  #logOut{
+    font-size: 60px;
+    font-family: monospace;
+    text-align: center;
+    padding: 200px 50px 0px 150px;
 
-}
-.pantalla{
-  background-color: orange;
-}
+  }
+  .pantalla{
+    background-color: orange;
+  }
+  /*para coders.html */
+  .coder{
+    background-color: orange;
+    font-size: 17px;
+    width: 250px;
+    height: 180px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    margin: 5px;
+    font-family: cursive;
+
+  }
+  #regresar{
+    font-family: cursive;
+    margin: 50px ;
+    display: block;
+
+  }
