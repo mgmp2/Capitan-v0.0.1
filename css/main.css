@@ -28,6 +28,13 @@
     font-family: cursive;
     margin: 50px ;
     display: block;
-
+}
 
   /* index.html */
+
+  #sprint-1{
+    display: none;
+  }
+  #sprint-2{
+    display: none;
+  }
