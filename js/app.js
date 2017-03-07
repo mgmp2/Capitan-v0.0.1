@@ -1,5 +1,4 @@
 
-
 var sprint1 = document.getElementById("sprint-1");
 var sprint2 = document.getElementById("sprint-2");
 var sprint3 = document.getElementById("sprint-3");
@@ -7,6 +6,9 @@ var sprint3 = document.getElementById("sprint-3");
 sprint1.style.display = "none";
 sprint2.style.display = "block";
 sprint3.style.display = "none";
+
+
+
  function mostrarOcultar1(divtexte) {
   	if(sprint1.style.display == "none" ) {
   		sprint1.style.display = "block";
@@ -94,15 +96,16 @@ sprint3.style.display = "none";
 
     //dropdown
     function myFunction() {
+
 	document.getElementById("myDropdown").classList.toggle("show");
 }
 
 window.onclick = function(event) {
+  var per = prompt("Ingrese su nombre");
 	if (!event.target.matches('.dropbtn')) {
-
 		var dropdowns = document.getElementsByClassName("dropdown-content");
-		var i;
-		for (i = 0; i < dropdowns.length; i++) {
+
+		for (var i = 0; i < dropdowns.length; i++) {
 			var openDropdown = dropdowns[i];
 			if (openDropdown.classList.contains('show')) {
 				openDropdown.classList.remove('show');
