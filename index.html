@@ -11,6 +11,7 @@
 <body>
   <header align="right">
     <div id="dropdown" class= "Hola-c">
+      <label id="coderInicio"></label>
 	<button onclick="myFunction()" class="dropbtn">&#9776;</button>
 	<div id="myDropdown" class="dropdown-content">
 		<a href="coders.html">Perfil</a>
@@ -121,8 +122,14 @@
 <div id="sprint-3">
   <h4>Sprint 3: Continuara...</h4>
 </div>
-<script src="js/app.js">
-
+<script>
+var pers = prompt("Ingrese su nombre");
+while(pers== null || pers==""){
+  pers = prompt("Debe ingresar su nombre");
+}
+document.getElementById("coderInicio").textContent = "Hola "+ pers;  
 </script>
+
+<script src="js/app.js"></script>
 </body>
 </html>
