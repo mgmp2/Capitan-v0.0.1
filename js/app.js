@@ -62,6 +62,7 @@ sprint3.style.display = "none";
            cont++;
          }
          mensaje.innerHTML = "Tienes "+ cont + " correcta(s)";
+         sprint1.style.display = "none";
        }else{
          alert("Debe responder todas las preguntas")
        }
@@ -88,6 +89,7 @@ sprint3.style.display = "none";
         cont++;
       }
     mensaje.innerHTML = "Tienes "+ cont + " correcta(s)";
+    sprint2.style.display = "none";
   }
     else{
       alert("Debe responder todas las preguntas")
@@ -101,7 +103,7 @@ sprint3.style.display = "none";
 }
 
 window.onclick = function(event) {
-  var per = prompt("Ingrese su nombre");
+
 	if (!event.target.matches('.dropbtn')) {
 		var dropdowns = document.getElementsByClassName("dropdown-content");
 
